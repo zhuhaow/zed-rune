@@ -1,0 +1,11 @@
+id = "rune"
+name = "Rune"
+version = "0.0.1"
+schema_version = 1
+authors = ["Zhuhao Wang <zhuhaow@gmail.com>"]
+description = "Rune language support for Zed"
+repository = "https://github.com/zhuhaow/zed-rune"
+
+[grammars.rust]
+repository = "https://github.com/tree-sitter/tree-sitter-rust"
+rev = "18b0515fca567f5a10aee9978c6d2640e878671a"
