@@ -4,9 +4,9 @@ This is a Zed extension that provides language support for the Rune programming 
 
 Currently, the extension is based on tree-sitter rust parser and zed build-in rust tree-sitter queries.
 
-This could cause issues in outline view and some other features that rely on tree-sitter queries since rust parser expects type identifiers presents.
+While the syntax highlighting works correctly, this could cause issues in outline view and some other features that rely on tree-sitter queries. Rust parser expects type identifiers present, thus causing errors in AST.
 
-While I have a tree-sitter parser for Rune ready at https://github.com/zhuhaow/tree-sitter-rune, I don't have time to write tree-sitter queries for it yet.
+I have a tree-sitter parser for Rune ready at https://github.com/zhuhaow/tree-sitter-rune, but a tree-sitter queries for it is not ready yet.
 
 ## License
 
